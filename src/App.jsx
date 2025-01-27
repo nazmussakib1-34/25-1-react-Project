@@ -1,16 +1,20 @@
 
 import './App.css'
+import Charts from './Components/Charts/Charts'
+import Navber from './Components/NavBer/Navber'
+import PriceOptions from './Components/PriceOptions/PriceOptions'
 
 function App() {
  
 
   return (
     <>
+      <Navber></Navber>
+      <PriceOptions></PriceOptions>
+      <Charts></Charts>
+
       
-    <div className="p-4">
-      <button className="btn btn-primary">Primary Button</button>
-      <button className="btn btn-secondary ml-2">Secondary Button</button>
-    </div>
+   
   
 
     </>
